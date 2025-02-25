@@ -17,19 +17,18 @@ programa {
 
     leia(nivelDoJogo)
 
-    
     escolha(nivelDoJogo){
-      caso "f":
+      caso 'f':
         contadorDeErros=15
         contadorTentativas=16
         escreva("Nível FÁCIL.\n Você tem "+contadorDeErros+" tentativas!", "\n")
         pare
-      caso "m":
+      caso 'm':
         contadorDeErros=10
         contadorTentativas=11
         escreva("Nível MÉDIO.\n Você tem "+contadorDeErros+" tentativas!", "\n")
         pare
-      caso "d":
+      caso 'd':
         contadorDeErros=5
         contadorTentativas=6
         escreva("Nível DIFÍCIL.\n Você tem "+contadorDeErros+" tentativas!", "\n")
@@ -69,14 +68,3 @@ programa {
       }
   	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 561; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
